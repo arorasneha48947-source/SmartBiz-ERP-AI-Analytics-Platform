@@ -1,0 +1,30 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+analytics-env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Sensitive database files
+*.sql
+*.sql.gz
+
+# OS files
+.DS_Store
+Thumbs.db.env
